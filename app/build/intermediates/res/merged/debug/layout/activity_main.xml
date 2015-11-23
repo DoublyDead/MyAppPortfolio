@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:text="My Nanodegree Apps!"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/head_text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_below="@id/head_text_tv"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:id="@+id/button_container_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            android:text="Spotify Streamer"
+            android:id="@+id/spotify_sreamer_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            android:text="Scores App"
+            android:id="@+id/scores_app_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            android:text="Library App"
+            android:id="@+id/library_app_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            android:text="Build it Bigger"
+            android:id="@+id/buid_it_bigger_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            android:text="XYZ reader"
+            android:id="@+id/xyz_reader_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"
+            android:text="Capstone: my own app"
+            android:id="@+id/capstone_my_own_app_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/Users/DoublyDead/AndroidStudioProjects/MyAppPortfolio/app/src/main/res/layout/activity_main.xml -->
